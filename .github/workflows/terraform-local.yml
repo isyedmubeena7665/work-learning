@@ -1,0 +1,7 @@
+name: Terraform Pipeline with OIDC
+
+on:
+ workflow_dispatch:
+ push:
+   branches:
+       -feature/*
